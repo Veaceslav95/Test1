@@ -1,0 +1,16 @@
+Null		- este tip de date primitiv ce are singura o singura valoare - null;
+		- null este de multe ori setat pentru a indica faptul ca ceva a fost declarat,
+		  dar a fost definit pentru a fi gol;
+		- intr-un context boolean, valoarea nula este considerata o valoare de fals in JavaScript;
+		- typeof(null) = object, dar ar trebui sa fie null;
+		
+Undefined 
+		- este tip de date primitiv ce are singura valoare - unefined;
+		- valoarea de "undefined" este atribuita la toate variabilele neinitializate;
+		- intr-un context boolean, valoarea undefined este considerat o valoare de fals;
+		- typeof(undefined) = undefined;
+
+NaN		- este o proprietate atribuita unei variabile;
+		- semnifica not-a-number;
+ 
+Infinity 	- o valoare numerica ce reprezinta infinitul; 

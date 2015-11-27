@@ -1,0 +1,50 @@
+1)
+var admin;
+var name;
+
+name = "Vasile";
+admin = name;
+window.alert(admin);
+
+2)
+var a=3;  // valid;
+a= 'abc';  // valid;
+
+var a = 5; 
+alert(a); // valid;
+
+var _b1 = null;
+_b1 = false;
+alert (_b1); // false;
+
+var a = null; 
+alert (a);  // null, deoarece a = null;
+
+var a; 
+alert(a);  // undefined, deoarece "a" nu are nici o valoare;
+
+var a = 5
+alert(a)
+alert(a+1) // da, va fi executat, dar ar trebui de folosit ";" dupa fiecare linie de cod
+
+3) 
+var adminName;	// buna
+var imia_Admina; // valida, nerecomandabila
+var numele_Adminului; // valida, nerecomandabila
+var admin_Name; // buna
+var AdminName; // valida
+var ADMINNAME; // nerecomandabila
+var имяАдмина; // inadmisibila
+var _; // valida, nerecomandabila
+var 1stAdmin; // inadmisibila
+var primaryAdmin; // buna
+var $; // valida, nerecomandabila
+var i; // valida
+var j; // valida
+var getCount; // buna
+var count; // buna
+var getCount(); // inadmisibila, nume de functie
+var int; // valida, nerecomandabila
+
+4)
+adminName si adminNAME sunt nume de variabile diferite deoarece, numele de variabile in Javascript sunt "case sensitive".

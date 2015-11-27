@@ -1,0 +1,18 @@
+1)
+<script src="big.js"></script>
+<script src="small.js"></script>
+
+-- primul va fi executat big.js, deoarece el a fost declarat mai sus ca small.js;
+
+2)
+<script async src="big.js"></script>
+<script async src="small.js"></script>
+
+-- primul va fi executat small.js, deoarece scripturile se comporta asincron;
+
+3)
+<script defer src="big.js"></script>
+<script defer src="small.js"></script>
+
+-- primul va fi executat big.js, chiar daca small.js se executa mai rapid,
+	scriptul small.js il va astepta;
