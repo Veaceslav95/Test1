@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 asd
 asd
 asd
+=======
+lalala
+>>>>>>> 16bb2192a271f3975364841539f3510d2ef1af4d
